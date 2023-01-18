@@ -1,0 +1,45 @@
+body {
+    font-size: 1.2rem;
+    background-color: rgb(226, 192, 152);
+}
+.container {
+    width: min(80ch, 100vw - 4rem);
+    margin-inline: auto;
+    background-color: rgb(226, 192, 152)
+}
+
+main {
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+}
+.gallery {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 1rem;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+
+    object-fit: cover;
+    aspect-ratio: 4/3;
+    height: auto;
+}
+
+.gallery figure {
+    position: relative;
+}
+
+.gallery figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
