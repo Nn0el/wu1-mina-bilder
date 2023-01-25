@@ -8,6 +8,12 @@ body {
     background-color: rgb(226, 192, 152)
 }
 
+nav {
+    background-color: rgb(255, 174, 0);
+    padding: 1rem;
+    font-family: sans-serif;
+    
+}
 main {
     margin-top: 4vh;
     margin-bottom: 8vh;
