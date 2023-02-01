@@ -1,24 +1,29 @@
 body {
     font-size: 1.2rem;
-    background-color: rgb(226, 192, 152);
+    background-color:#a7beb1;
+    
 }
 .container {
     width: min(80ch, 100vw - 4rem);
     margin-inline: auto;
-    background-color: rgb(226, 192, 152)
+   
+    background-color: #72887c;
+    
+    
 }
 
 nav {
-    background-color: rgb(255, 174, 0);
+    background-color: #a2e3c4;
     padding: 1rem;
     font-family: sans-serif;
     
 }
 main {
     margin-top: 4vh;
-    margin-bottom: 8vh;
+    margin-bottom: 7vh;
+    
 }
-.gallery {
+.gallery {  
     list-style: none;
     padding: 0;
     margin: 0 auto;
@@ -30,7 +35,6 @@ main {
 .gallery img {
     display: block;
     width: 100%;
-
     object-fit: cover;
     aspect-ratio: 4/3;
     height: auto;
@@ -38,6 +42,7 @@ main {
 
 .gallery figure {
     position: relative;
+   
 }
 
 .gallery figcaption {
@@ -48,4 +53,5 @@ main {
     padding: 0.5rem;
     background: rgba(0, 0, 0, 0.5);
     color: white;
+   
 }
