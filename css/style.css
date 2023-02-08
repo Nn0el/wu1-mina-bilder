@@ -1,22 +1,23 @@
 body {
     font-size: 1.2rem;
-    background-color:#a7beb1;
+    background-color:#aaa8de;
     
 }
 .container {
     width: min(80ch, 100vw - 4rem);
     margin-inline: auto;
    
-    background-color: #72887c;
+    background-color: #16425B;
     
     
 }
 
 nav {
-    background-color: #a2e3c4;
+    background-color: #3A7CA5;
     padding: 1rem;
-    font-family: sans-serif;
-    
+    font-family: 'Segoe UI' ;
+    margin-inline: auto;
+    list-style: none;
 }
 main {
     margin-top: 4vh;
